@@ -1,9 +1,3 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
   --maintitle-text-color: var(--violet-color, #db00ff);
   --shadow-color: var(--pink-color, #ff0070);
