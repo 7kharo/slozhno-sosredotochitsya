@@ -9,15 +9,14 @@
   --description-text-color: var(--lightpink-color, #f1b2ce);
 
   --page-bg-image: url("../images/cover-image-dark.png");
-  --page-bg-color: var(--darkblue-color, #000028);
 
   .decor-rec {
     visibility: visible;
   }
 }
 
-/*@media (prefers-color-scheme: dark) {
-  :root {
+@media (prefers-color-scheme: dark) {
+  .page.theme_dark {
     --maintitle-text-color: var(--violet-color, #db00ff);
     --shadow-color: var(--pink-color, #ff0070);
     --title-text-color-light: var(--pink-color, #ff0070);
@@ -33,4 +32,4 @@
   .decor-rec {
     visibility: visible;
   }
-}*/
+}

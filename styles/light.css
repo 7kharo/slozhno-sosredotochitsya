@@ -23,7 +23,6 @@
 --description-text-color: var(--grey-color, #353430);
 
 --page-bg-image: url("../images/cover-image-light.png");
---page-bg-color: var(--darkblue-color, #000028);
 
 .decor-rec {
   visibility: hidden;
@@ -31,7 +30,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  .page.theme_light {
     --maintitle-text-color: var(--lightpink-color-2, #ffc2e6);
     --shadow-color: var(--lightpink-color-3, #ff8dcb);
     --title-text-color-light: var(--grey-color, #353430);
