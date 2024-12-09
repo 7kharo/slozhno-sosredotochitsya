@@ -1,9 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-    /*background-color: var(--page-bg-color, #000028);*/
     background-image: var(--page-bg-image, url("../images/cover-image-dark.png"));
-    /*background-image: var(--page-bg-image, url("../images/cover-image-light.png"));*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
