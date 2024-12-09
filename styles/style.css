@@ -79,7 +79,7 @@
   }
   
   .header__theme-menu-button:hover {
-    border: 1px solid var(--themeswitch-color_hover, rgba(255, 0, 112, 0.4));
+    border: 1px solid var(--themeswitch-color_hover, #ff007040);
   }
   
   .header__theme-menu-button:focus {

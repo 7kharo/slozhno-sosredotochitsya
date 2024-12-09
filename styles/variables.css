@@ -4,7 +4,7 @@
 */
 :root {
   --pink-color: #ff0070;
-  --pink-color-tr: rgba(255, 0, 112, 0.4);
+  --pink-color-tr: #ff007040;
   --lightpink-color: #f1b2ce;
   --violet-color: #db00ff;
   --darkblue-color: #000028;
@@ -21,7 +21,7 @@
   --title-text-color-light: var(--pink-color, #ff0070);
   --title-text-color-dark: var(--darkblue-color, #000028);
   --themeswitch-color: var(--pink-color, #ff0070);
-  --themeswitch-color_hover: var(--pink-color-tr, rgba(255, 0, 112, 0.4));
+  --themeswitch-color_hover: var(--pink-color-tr, #ff007040);
   --accent-color: var(--pink-color, #ff0070);
   --description-text-color: var(--lightpink-color, #f1b2ce);
 
