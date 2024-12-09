@@ -2,7 +2,7 @@
 
 
   /*--pink-color: #ff0070;
---pink-color_tr: rgba(255, 0, 112, 0.4);
+--pink-color-tr: rgba(255, 0, 112, 0.4);
 --lightpink-color: #f1b2ce;
 --violet-color: #db00ff;
 --darkblue-color: #000028;
@@ -18,11 +18,12 @@
 --title-text-color-light: var(--grey-color, #353430);
 --title-text-color-dark: var(--grey-color, #353430);
 --themeswitch-color: var(--grey-color, #353430);
---themeswitch-color_hover: var(--grey-color_tr, #35343040);
+--themeswitch-color_hover: var(--grey-color-tr, #35343040);
 --accent-color: var(--lightpink-color-3, #ff8dcb);
 --description-text-color: var(--grey-color, #353430);
 
 --page-bg-image: url("../images/cover-image-light.png");
+--page-bg-color: var (--lightpink-color-4, #fff1f7);
 
 .decor-rec {
   visibility: hidden;
@@ -41,6 +42,7 @@
     --description-text-color: var(--grey-color, #353430);
 
     --page-bg-image: url("../images/cover-image-light.png");
+    --page-bg-color: var (--lightpink-color-4, #fff1f7);
   }
 
   .decor-rec {

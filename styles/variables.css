@@ -4,15 +4,16 @@
 */
 :root {
   --pink-color: #ff0070;
-  --pink-color_tr: rgba(255, 0, 112, 0.4);
+  --pink-color-tr: rgba(255, 0, 112, 0.4);
   --lightpink-color: #f1b2ce;
   --violet-color: #db00ff;
   --darkblue-color: #000028;
 
   --grey-color: #353430;
-  --grey-color_tr: #35343040;
+  --grey-color-tr: #35343040;
   --lightpink-color-2: #ffc2e6;
   --lightpink-color-3: #ff8dcb;
+  --lightpink-color-4: #fff1f7;
 
 
   --maintitle-text-color: var(--violet-color, #db00ff);
@@ -20,10 +21,11 @@
   --title-text-color-light: var(--pink-color, #ff0070);
   --title-text-color-dark: var(--darkblue-color, #000028);
   --themeswitch-color: var(--pink-color, #ff0070);
-  --themeswitch-color_hover: var(--pink-color_tr, rgba(255, 0, 112, 0.4));
+  --themeswitch-color_hover: var(--pink-color-tr, rgba(255, 0, 112, 0.4));
   --accent-color: var(--pink-color, #ff0070);
   --description-text-color: var(--lightpink-color, #f1b2ce);
 
-  --text-font-family: 'IBM Plex mono', sans-serif;
+  --text-font-family: 'IBM Plex mono', monospace;
   --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-color: var (--darkblue-color, #000028);
 }
