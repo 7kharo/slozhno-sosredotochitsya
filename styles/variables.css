@@ -25,6 +25,6 @@
   --description-text-color: var(--lightpink-color, #f1b2ce);
 
   --text-font-family: 'IBM Plex mono', sans-serif;
-  --page-bg-image: url("../images/cover-image-dark.png");
+  --page-bg-image: url("../images/cover-image-light.png");
   --page-bg-color: var(--darkblue-color, #000028);
 }
