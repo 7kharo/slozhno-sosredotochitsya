@@ -30,7 +30,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
+  :root {
     --maintitle-text-color: var(--lightpink-color-2, #ffc2e6);
     --shadow-color: var(--lightpink-color-3, #ff8dcb);
     --title-text-color-light: var(--grey-color, #353430);
